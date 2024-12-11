@@ -15,6 +15,7 @@ const app = express();
 app.use(express.json());
 app.use(cors({
   origin: [
+    'https://mayyil-aa-libnen-production.up.railway.app/',
     'https://mayyilaalibnen.up.railway.app', // Frontend Railway URL
     'https://mayyilaalibnen.netlify.app',
     'http://localhost:3000', // For local testing
